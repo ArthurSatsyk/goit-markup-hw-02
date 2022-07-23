@@ -89,7 +89,6 @@ body{
 }
 
 .hero-btn{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -108,8 +107,8 @@ body{
 /*---Feature section---*/
 
 .feature-title{
-    font-family: 'Roboto';
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -128,6 +127,13 @@ body{
 
 .team{
     background-color: var(--background-color-second);
+}
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team-item{
@@ -165,7 +171,6 @@ body{
 /*---Porfolio section---*/
 
 .filter-btn{
-    font-family: 'Roboto';
     background-color: var(--background-color-second);
     color: var(--color-dark);
     font-weight: 500;
